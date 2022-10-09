@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script type="module" src="./assets/script/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>BlackJack Game</h1>
+    </header>
+    <!-- DIALOGUE WINDOW NUMBER OF PLAYERS -->
+    <div class="dialog-window" id="dialog-window">
+        <h2>How many players?</h2>
+        <form action="">
+            <input type="text" name="playersNumber" id="playersNumber" value="1">
+            <button type="submit" id="playButton">Play!</button>
+            <span id="errorMessageSpan"></span>
+        </form>
+    </div>
+    <main>
+        <!-- PLAYER ELEMENT, GENERATED IN JS -->
+        <!-- CARD ELEMENT, GENERATED IN JS -->
+    </main>
+    <!-- ANNOUNCING WINNER WINDOW -->
+    <div class="result-window">
+        <h2>Results</h2>
+        <div>
+            <div class="result-portrait-container">
+                <!-- PORTRAIT IMAGE, GENERATED IN JS -->
+            </div>
+            <div class="result-container">
+                <!-- RESULT, GENERATED IN JS -->
+            </div>
+        </div>
+        <div class="rounds">Total of rounds: <span data-rounds>0</span></div>
+        <button type="button" id="btnReplay">Replay</button>
+    </div>
+    
+</body>
+</html>
